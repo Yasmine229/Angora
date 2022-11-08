@@ -1,0 +1,309 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    line-height: 1.75em;
+}
+.carousel-caption
+{
+    bottom: 50vh;
+}
+.carousel-caption h2{
+    position: relative;
+    font-size: 4rem;
+    font-weight: 900;
+    animation: cap-animation 2s;
+}
+@keyframes cap-animation
+{
+    0%
+    {
+        opacity: 0;
+        transform: translateX(110vw);
+    }
+    100%
+    {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+.haeder
+{
+    position: relative;
+}
+.header-inner
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999;
+    background: transparent;
+}
+.nav-item .nav-link
+{
+    color: #fff;
+}
+.nav-item .nav-link:hover,
+ul.navbar-nav .nav-icons a:hover
+{
+    color: #f25454;
+    transition: 0.6s;
+}
+ul.navbar-nav a.active
+{
+    color: #f25454;
+    transition: 0.6s;
+}
+.nav-icons
+{
+    color: #fff;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+.nav-icons a{
+    margin-left: 12px;
+}
+
+.setting-icon
+{
+    position: fixed;
+    top: 30%;
+    left: 0;
+    background:#282828;
+    font-size: 1.8rem;
+    padding: 10px;
+}
+.setting-icon:hover
+{
+    background: rgb(78, 77, 77) !important;
+    transition: 0.6s all;
+}
+.setting-icon a{
+    color: #fff;
+}
+
+
+.link-about
+{
+    position: absolute;
+    width:25px;
+    height: 40px;
+    border:  1px solid #fff;
+    border-radius: 13px;
+    background: transparent;
+    bottom: 30px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    transition: all 0.6s;
+
+}
+.link-about:hover
+{
+    border-color: #f25454;
+   
+}
+.link-about .about-icon
+{
+    position: absolute;
+    display: block;
+    width:8px ;
+    height:8px ;
+    background: #fff;
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    top: 6px;
+    left: 0;
+    right: 0;
+    animation:  about-icons 1.8s infinite ease;
+}
+@keyframes about-icons
+{
+    0%{
+        top: 6px;
+        opacity: 0;
+    }
+    30%{
+        opacity: 1;
+    }
+    100%{
+        top: 16px;
+        opacity: 0;
+    }
+}
+/* end section home */
+h2{
+    font-size: 80px;
+    color: #f1f1f1;
+    position: relative;
+}
+h3{
+    position: absolute;
+    font-size: 38px;
+    line-height: 38px;
+    font-weight: 700;
+    top: 42px;
+    left: 40%;
+}
+
+.section-title{
+    font-size: 18px;
+    color: #999;
+    margin-bottom: 70px;
+    margin:0 0 10px ;
+}
+hr{
+    background-color: #ccc;
+    width:4%;
+    margin: auto;
+    border-color: #000;
+
+}
+.section-title2{
+    font-size: 14px;
+    line-height: 1.75em;
+    color: #666;
+}
+.progress .progress-bar{
+    background-color: #f25454;
+}
+.progress-title p{
+    color: #444;
+    font-weight: 600;
+}
+
+/* end of about */
+
+.img-member{
+    position: relative;
+    overflow: hidden;
+}
+.img-member1{
+    transition: all 0.5s
+}
+.img-cabtion h4{
+    position: relative;
+    color: #444;
+    font-size: 18px;
+
+}
+.img-cabtion p{
+    font-size: 12px;
+}
+.overlay{
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    height: 100%;
+    width: 100%;
+    background: rgba(242, 84, 84, 0.85);
+    opacity: 0;
+}
+.team:hover .overlay{
+    opacity: 1;
+}
+
+.team:hover img{
+    transform: scale(1.2);
+}
+.team:hover h4{
+    color:rgba(242, 84, 84, 0.85) !important;
+}
+
+/* end of team*/
+
+.ideas h5{
+    position: absolute;
+    font-size: 30px;
+    line-height: 38px;
+    font-weight: 700;
+    left: 20%;
+}
+
+/* end of ideas*/
+
+.icons {
+    font-size: 32px;
+    text-align: center;
+    color: #f25454;
+}
+
+ h5{
+    color:#282828;
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 700;
+}
+.caption-icons:hover h5{
+    color:rgba(242, 84, 84, 0.85);
+}
+
+/*end of icons */
+
+#carouselExampleCaptions .reviews-img img{
+    width:170px;
+}
+.carousel-item p{
+    color: #666;
+}
+.cabtion-reviews p{
+    color: #666;
+    font-size: 25px;
+    line-height: 30px;
+    font-weight: 900;
+    width: 750px;
+}
+
+/* end of reviews*/
+
+h6{
+    font-size: 32px;
+    line-height: 32px;
+    margin: 0 0 30px 0;
+    color: #282828;
+    font-weight: 600;
+}
+
+/* end of touch */
+
+#end{
+    background-color: #282828;
+}
+.end-info p{
+    line-height: 0.8rem;
+}
+
+.hover-p p:hover{
+    color:rgba(242, 84, 84, 0.85);
+}
+.end-info .tags{
+    border: 1px solid#CCC;
+    padding: 5px;
+    border-radius: 5px;
+}
+.end-info a:hover
+{
+    color:rgba(242, 84, 84, 0.85) !important;
+    text-decoration: none;
+    border-color: #f25454;
+}
+.footer-widgets {
+    background-color: #111;
+}
+.icon2 i:hover{
+    color:rgba(242, 84, 84, 0.85) !important;
+}
+.caption-icon2 a:hover{
+    color:rgba(242, 84, 84, 0.85) !important;
+    text-decoration: none;
+}
+.caption-icon2{
+    padding-left: 60%;
+}
+
